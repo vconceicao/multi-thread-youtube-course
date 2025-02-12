@@ -1,0 +1,4 @@
+Quando vc utiliza o syncronized dentro da assinatura do método, vc acaba com o paralelismo.
+Apenas uma thread de cada vez vai poder utilizar o método.
+
+Utilizar syncronized apenas no recurso que vai ter concorrencia.
